@@ -33,7 +33,7 @@ local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
 		Title = "Flopps Gui",
 		Text = str,
-		Icon = "rbxassetid://15670929165",
+		Icon = "rbxassetid://15670929135",
 		Duration = dur or 3
 	})
 end
